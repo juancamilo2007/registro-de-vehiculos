@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ferrari F8 Tributo",
+        "modelo": "2023",
+        "color": "Rojo",
+        "potencia": "710 HP",
+        "KM_l": 8
+    },
+    {
+        "id": 2,
+        "nombre": "Lamborghini Huracán",
+        "modelo": "2023",
+        "color": "Amarillo",
+        "potencia": "630 HP",
+        "KM_l": 7
+    },
+    {
+        "id": 3,
+        "nombre": "Porsche 911 Carrera",
+        "modelo": "2023",
+        "color": "Negro",
+        "potencia": "379 HP",
+        "KM_l": 10
+    },
+    {
+        "id": 4,
+        "nombre": "Tesla Model S",
+        "modelo": "2023",
+        "color": "Blanco",
+        "potencia": "1020 HP",
+        "KM_l": 15
+    },
+    {
+        "id": 5,
+        "nombre": "Audi R8",
+        "modelo": "2023",
+        "color": "Gris",
+        "potencia": "562 HP",
+        "KM_l": 9
+    },
+    {
+        "id": 6,
+        "nombre": "McLaren 720S",
+        "modelo": "2023",
+        "color": "Naranja",
+        "potencia": "710 HP",
+        "KM_l": 10
+    },
+    {
+        "id": 7,
+        "nombre": "Chevrolet Corvette",
+        "modelo": "2023",
+        "color": "Azul",
+        "potencia": "495 HP",
+        "KM_l": 11
+    },
+    {
+        "id": 8,
+        "nombre": "BMW M4",
+        "modelo": "2023",
+        "color": "Verde",
+        "potencia": "503 HP",
+        "KM_l": 12
+    },
+    {
+        "id": 9,
+        "nombre": "Nissan GT-R",
+        "modelo": "2023",
+        "color": "Plateado",
+        "potencia": "565 HP",
+        "KM_l": 8
+    },
+    {
+        "id": 10,
+        "nombre": "Aston Martin Vantage",
+        "modelo": "2023",
+        "color": "Rojo oscuro",
+        "potencia": "503 HP",
+        "KM_l": 9
+    },
+    {
+        "id": 11,
+        "nombre": "Jaguar F-Type",
+        "modelo": "2023",
+        "color": "Amarillo",
+        "potencia": "444 HP",
+        "KM_l": 10
+    },
+    {
+        "id": 12,
+        "nombre": "Mercedes-AMG GT",
+        "modelo": "2023",
+        "color": "Negro mate",
+        "potencia": "523 HP",
+        "KM_l": 9
+    }
+]

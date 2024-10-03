@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tabla-productos">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Modelo</th>
+                <th>Color</th>
+                <th>Potencia</th>
+                <th>Combustible KM/L</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las filas se llenarán dinámicamente con JavaScript -->
+        </tbody>
+    </table>
+    
+        <div></div>
+        <h4 class="titulo" >Consultar vehículo</h4>
+        <input type="number" id="txtConsulta" placeholder="Ingrese su ID">
+        <button onclick="consultarUno()">Consultar</button><br/><br/>
+    </div>
+    <div>
+        <label class="label"  for="consultaNombre">Nombre:</label>
+        <input class="input" id="consultaNombre" rows="1" cols="30"></input>
+    </div>
+    <div>
+        <label  class="label" for="consultaModelo">Modelo:</label>
+        <input class="input" id="consultaModelo" rows="1" cols="30"></input>
+    </div>
+    <div>
+        <label  class="label" for="consultaColor">Color:</label>
+        <input class="input" id="consultaColor" rows="1" cols="30"></input>
+    </div>
+    <div>
+        <label  class="label" for="consultaAlmacenamiento">Potencia:</label>
+        <input class="input" id="consultaAlmacenamiento" class="input" rows="1" cols="30"></input>
+    </div>
+    <div>
+        <label  class="label" for="consultaProcesador">KM/L:</label>
+        <input class="input" id="consultaProcesador" rows="1" cols="30"></input>
+    </div><br/>
+    <button onclick="modificarUno()">Modificar</button>
+    <button onclick="eliminarUno()">Eliminar</button>
+    <div>
+        <h4>Agregar artículo</h4>
+        <input class="input" type="text" id="inputNombre" placeholder="Nombre">
+        <input class="input" type="text" id="inputModelo" placeholder="Modelo">
+        <input class="input" type="text" id="inputColor" placeholder="Color">
+        <input class="input" type="text" id="inputPotencia" placeholder="Potencia">
+        <input class="input" type="text" id="inputKM/L" placeholder="KM/L"><br/><br/>
+        <button onclick="agregarUno()">Agregar Nuevo</button>
+    </div>
+
+    
+
+    <script src="scrit.js"></script>
+</body>
+</html>
